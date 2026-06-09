@@ -10,3 +10,4 @@ var myname = undefined; //变量提升
 show = function () {
   console.log(myname);
 }
+gitignore

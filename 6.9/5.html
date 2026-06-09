@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+  //二维数组初始化
+  const arr = new Array(3).fill(0).map(() => new Array(3).fill(0));
+  arr[0][0] = 1;
+  console.log(arr);
+  const arr1 = new Array(7).fill([]);
+  let length = arr1.length;
+  for (let i = 0; i < length; i++) {
+    arr1[i] = new Array(3).fill(0);
+  }
+</script>
