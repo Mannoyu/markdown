@@ -22,4 +22,12 @@
   for (let i = 0; i < length; i++) {
     arr1[i] = new Array(3).fill(0);
   }
+  console.log(arr1);
+  //二维数组遍历优化
+  for (let i = 0; i < length; i++) {
+    for (let j = 0; j < 3; j++) {
+      console.log(arr1[i][j]);
+    }
+  }
+  //把length封装成一个给一个变量
 </script>
